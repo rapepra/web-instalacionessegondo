@@ -1,0 +1,37 @@
+# Instalaciones Egondo
+
+> Instalaciones y Montajes Eléctricos Egondo, S.A. es una empresa instaladora eléctrica de Ermua (Bizkaia), fundada en 1967 por Javier Garro y dirigida desde 2008 por Aitor Garro. Monta, mantiene y pone en marcha instalaciones eléctricas de alta y baja tensión para industria, edificios y organismos públicos, con ingeniería propia (proyectos, planos y legalizaciones).
+
+## Datos de contacto
+- Razón social: Instalaciones y Montajes Eléctricos Egondo, S.A.
+- Dirección: Avda. Vizcaya s/n, Edificio Zeharreko-Buelta P1-L2, 48260 Ermua (Bizkaia), España. Apdo. 108.
+- Ubicación: junto a la N-634, a la entrada de Ermua viniendo de Zaldibar.
+- Teléfono: +34 943 170 500
+- Fax: +34 943 172 361
+- Email: info@instalacionesegondo.com
+- Horario: lunes a viernes de 8:00 a 13:00 y de 14:00 a 18:00.
+- Empresa instaladora autorizada en baja tensión nº 48/EIBT-268, en todas las modalidades.
+
+## Zona de servicio
+Bizkaia, Gipuzkoa y Álava (a menos de una hora desde Ermua) y proyectos en el resto de España.
+
+## Servicios
+- Alta y media tensión (de 1 kV a 36 kV): montaje y mantenimiento de centros de transformación y líneas subterráneas y aéreas; inspecciones reglamentarias (OCA) y corrección de anomalías; adecuación y legalización de CT; transformadores de reserva para averías. Fabricantes: Ormazábal, Schneider Electric, Siemens, Inael, Mesa.
+- Baja tensión (hasta 1000 V): instalaciones industriales, electrificación de pabellones, averías en instalaciones y maquinaria, iluminación LED, alumbrado público, edificios públicos y viviendas.
+- Termografías de centros de transformación e instalaciones de baja tensión, con informe.
+- Eficiencia energética: análisis de la factura eléctrica, reparto de potencias, LED, fotovoltaica y monitorización.
+- Automatización industrial: programas de PLC, pantallas táctiles, cuadros eléctricos y esquemas.
+- Telecomunicaciones: ICT, cableado estructurado certificado, fibra óptica, wifi, racks y SAI.
+
+## Sectores
+Industria (pabellones, naves, oficinas, puertos), pública concurrencia (hospitales, colegios, ayuntamientos, museos, teatros, viales, túneles, campos de fútbol, centros comerciales), terciario y particulares.
+
+## Páginas principales
+- [Inicio](https://instalacionesegondo.com/): servicios, empresa, sectores, zona y preguntas frecuentes.
+- [Mantenimiento de centros de transformación](https://instalacionesegondo.com/mantenimiento-centros-transformacion/): qué incluye y qué exige la normativa.
+- [Contacto](https://instalacionesegondo.com/contacto/): teléfono, email, formulario y cómo llegar.
+
+## Opcional
+- [Versión en euskera](https://instalacionesegondo.com/eu/)
+- [Aviso legal](https://instalacionesegondo.com/aviso-legal/)
+- [Privacidad y cookies](https://instalacionesegondo.com/privacidad/)

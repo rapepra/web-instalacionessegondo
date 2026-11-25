@@ -1,0 +1,535 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://instalacionesegondo.com/#web",
+      "url": "https://instalacionesegondo.com/",
+      "name": "Instalaciones Egondo",
+      "inLanguage": "es-ES",
+      "publisher": {
+        "@id": "https://instalacionesegondo.com/#negocio"
+      }
+    },
+    {
+      "@type": "Electrician",
+      "@id": "https://instalacionesegondo.com/#negocio",
+      "name": "Instalaciones Egondo",
+      "legalName": "Instalaciones y Montajes Eléctricos Egondo, S.A.",
+      "alternateName": "Egondo",
+      "description": "Empresa instaladora eléctrica de Ermua (Bizkaia), fundada en 1967: montaje, mantenimiento y puesta en marcha de instalaciones de alta y baja tensión, centros de transformación, termografías, telecomunicaciones, automatización industrial y eficiencia energética, con ingeniería propia.",
+      "url": "https://instalacionesegondo.com/",
+      "logo": "https://instalacionesegondo.com/logo.svg",
+      "image": [
+        "https://instalacionesegondo.com/og-egondo.jpg",
+        "https://instalacionesegondo.com/img/centro-transformacion.jpg"
+      ],
+      "foundingDate": "1967",
+      "founder": {
+        "@type": "Person",
+        "name": "Javier Garro"
+      },
+      "telephone": "+34943170500",
+      "faxNumber": "+34943172361",
+      "email": "info@instalacionesegondo.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Avda. Vizcaya s/n, Edificio Zeharreko-Buelta P1-L2",
+        "postOfficeBoxNumber": "Apdo. 108",
+        "addressLocality": "Ermua",
+        "postalCode": "48260",
+        "addressRegion": "Bizkaia",
+        "addressCountry": "ES"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.1846,
+        "longitude": -2.5108
+      },
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=Instalaciones%20Egondo%2C%20Avenida%20Vizcaya%2C%2048260%20Ermua",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "08:00",
+          "closes": "13:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "14:00",
+          "closes": "18:00"
+        }
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+34943170500",
+        "email": "info@instalacionesegondo.com",
+        "contactType": "customer service",
+        "areaServed": "ES",
+        "availableLanguage": [
+          "es",
+          "eu"
+        ]
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Bizkaia"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Gipuzkoa"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Álava"
+        },
+        {
+          "@type": "Country",
+          "name": "España"
+        }
+      ],
+      "knowsAbout": [
+        "Alta tensión",
+        "Centros de transformación",
+        "Baja tensión",
+        "Termografía",
+        "Automatización industrial",
+        "Telecomunicaciones",
+        "Eficiencia energética"
+      ],
+      "sameAs": []
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://instalacionesegondo.com/#webpage",
+      "url": "https://instalacionesegondo.com/",
+      "name": "Instalaciones eléctricas en alta y baja tensión | Egondo",
+      "inLanguage": "es-ES",
+      "isPartOf": {
+        "@id": "https://instalacionesegondo.com/#web"
+      },
+      "about": {
+        "@id": "https://instalacionesegondo.com/#negocio"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://instalacionesegondo.com/mantenimiento-centros-transformacion/#servicio-ct-mantenimiento",
+      "name": "Mantenimiento de centros de transformación",
+      "serviceType": "Mantenimiento de centros de transformación",
+      "description": "Revisión general anual del centro de transformación, coordinación de la inspección periódica obligatoria por un OCA y corrección de las anomalías detectadas.",
+      "url": "https://instalacionesegondo.com/mantenimiento-centros-transformacion/",
+      "provider": {
+        "@id": "https://instalacionesegondo.com/#negocio"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Bizkaia"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Gipuzkoa"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Álava"
+        },
+        {
+          "@type": "Country",
+          "name": "España"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://instalacionesegondo.com/alta-tension/#servicio-ct-montaje",
+      "name": "Montaje de centros de transformación y líneas",
+      "serviceType": "Montaje de centros de transformación y líneas",
+      "description": "Instalación completa de celdas, transformadores y líneas de media tensión hasta 36 kV, con equipos de Ormazábal, Schneider Electric, Siemens, Inael o Mesa.",
+      "url": "https://instalacionesegondo.com/alta-tension/",
+      "provider": {
+        "@id": "https://instalacionesegondo.com/#negocio"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Bizkaia"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Gipuzkoa"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Álava"
+        },
+        {
+          "@type": "Country",
+          "name": "España"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://instalacionesegondo.com/#servicio-ct-legalizacion",
+      "name": "Adecuación y legalización de CT",
+      "serviceType": "Adecuación y legalización de CT",
+      "description": "Adecuamos centros de transformación en desuso a la normativa vigente para legalizarlos ante Industria y darlos de alta con la compañía eléctrica.",
+      "provider": {
+        "@id": "https://instalacionesegondo.com/#negocio"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Bizkaia"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Gipuzkoa"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Álava"
+        },
+        {
+          "@type": "Country",
+          "name": "España"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://instalacionesegondo.com/#servicio-ct-reserva",
+      "name": "Transformadores de reserva",
+      "serviceType": "Transformadores de reserva",
+      "description": "Disponemos de transformadores de potencia que se pueden instalar rápidamente en caso de avería, también en alquiler si no están incluidos en el contrato de mantenimiento.",
+      "provider": {
+        "@id": "https://instalacionesegondo.com/#negocio"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Bizkaia"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Gipuzkoa"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Álava"
+        },
+        {
+          "@type": "Country",
+          "name": "España"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://instalacionesegondo.com/baja-tension/#servicio-bt-industria",
+      "name": "Instalaciones industriales",
+      "serviceType": "Instalaciones industriales",
+      "description": "Electrificación de pabellones, acometidas a máquinas nuevas, nuevos puestos de trabajo, reformas y traslados de oficinas.",
+      "url": "https://instalacionesegondo.com/baja-tension/",
+      "provider": {
+        "@id": "https://instalacionesegondo.com/#negocio"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Bizkaia"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Gipuzkoa"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Álava"
+        },
+        {
+          "@type": "Country",
+          "name": "España"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://instalacionesegondo.com/#servicio-bt-averias",
+      "name": "Averías en instalaciones y maquinaria",
+      "serviceType": "Averías en instalaciones y maquinaria",
+      "description": "Búsqueda y reparación de averías, maniobras de seguridad, finales de carrera, PLC y copias de seguridad de programas.",
+      "provider": {
+        "@id": "https://instalacionesegondo.com/#negocio"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Bizkaia"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Gipuzkoa"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Álava"
+        },
+        {
+          "@type": "Country",
+          "name": "España"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://instalacionesegondo.com/#servicio-bt-alumbrado",
+      "name": "Iluminación LED y alumbrado público",
+      "serviceType": "Iluminación LED y alumbrado público",
+      "description": "Iluminación LED y convencional, y alumbrado público para organismos públicos, urbanizaciones y polideportivos.",
+      "provider": {
+        "@id": "https://instalacionesegondo.com/#negocio"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Bizkaia"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Gipuzkoa"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Álava"
+        },
+        {
+          "@type": "Country",
+          "name": "España"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://instalacionesegondo.com/#servicio-bt-edificios",
+      "name": "Edificios, locales y viviendas",
+      "serviceType": "Edificios, locales y viviendas",
+      "description": "Instalaciones en edificios públicos, corrientes de obra, reformas e instalaciones de obra en viviendas.",
+      "provider": {
+        "@id": "https://instalacionesegondo.com/#negocio"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Bizkaia"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Gipuzkoa"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Álava"
+        },
+        {
+          "@type": "Country",
+          "name": "España"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://instalacionesegondo.com/termografias/#servicio-termografia",
+      "name": "Termografías",
+      "serviceType": "Termografías",
+      "description": "Estudios termográficos de centros de transformación e instalaciones de baja tensión, con informe de puntos calientes y actuaciones recomendadas.",
+      "url": "https://instalacionesegondo.com/termografias/",
+      "provider": {
+        "@id": "https://instalacionesegondo.com/#negocio"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Bizkaia"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Gipuzkoa"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Álava"
+        },
+        {
+          "@type": "Country",
+          "name": "España"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://instalacionesegondo.com/eficiencia-energetica/#servicio-eficiencia",
+      "name": "Eficiencia energética",
+      "serviceType": "Eficiencia energética",
+      "description": "Análisis de la factura eléctrica y del reparto de potencias, estudios de eficiencia en baja tensión, LED, fotovoltaica y monitorización de la instalación.",
+      "url": "https://instalacionesegondo.com/eficiencia-energetica/",
+      "provider": {
+        "@id": "https://instalacionesegondo.com/#negocio"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Bizkaia"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Gipuzkoa"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Álava"
+        },
+        {
+          "@type": "Country",
+          "name": "España"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://instalacionesegondo.com/automatizacion-industrial/#servicio-automatizacion",
+      "name": "Automatización industrial",
+      "serviceType": "Automatización industrial",
+      "description": "Programas de PLC a medida, modificación de secuencias existentes, pantallas táctiles, montaje de cuadros eléctricos y esquemas.",
+      "url": "https://instalacionesegondo.com/automatizacion-industrial/",
+      "provider": {
+        "@id": "https://instalacionesegondo.com/#negocio"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Bizkaia"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Gipuzkoa"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Álava"
+        },
+        {
+          "@type": "Country",
+          "name": "España"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://instalacionesegondo.com/telecomunicaciones/#servicio-telecom",
+      "name": "Telecomunicaciones",
+      "serviceType": "Telecomunicaciones",
+      "description": "Instalaciones según ICT, cableado estructurado de red certificado, fibra óptica, wifi, racks de comunicaciones y SAI.",
+      "url": "https://instalacionesegondo.com/telecomunicaciones/",
+      "provider": {
+        "@id": "https://instalacionesegondo.com/#negocio"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Bizkaia"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Gipuzkoa"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Álava"
+        },
+        {
+          "@type": "Country",
+          "name": "España"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://instalacionesegondo.com/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Es obligatorio el mantenimiento de un centro de transformación?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. El titular de un centro de transformación debe tener contratado su mantenimiento con una empresa instaladora autorizada y pasar una inspección periódica por un Organismo de Control Autorizado (OCA) cada tres años, según el Reglamento de alta tensión (RD 337/2014). El desconocimiento no exime de cumplimiento: no cumplirlo puede acarrear responsabilidades."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué es una inspección OCA y quién la hace?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Es la inspección reglamentaria que realiza un Organismo de Control Autorizado, una entidad externa e independiente. Su informe favorable permite mantener el suministro. En alta tensión es cada tres años y en las instalaciones de baja tensión que lo requieren, cada cinco. Nosotros la coordinamos y corregimos las anomalías que señale el informe."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué pasa si se avería el transformador?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Disponemos de transformadores de potencia para nuestros clientes que se pueden instalar rápidamente en caso de avería. Si el servicio no está incluido en el contrato de mantenimiento, también se puede alquilar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Para qué sirve una termografía eléctrica?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Para encontrar calentamientos anómalos en conexiones, cables y equipos antes de que provoquen una avería o una parada de producción. Con una cámara termográfica revisamos los puntos acordados y entregamos un informe con los valores medidos y las actuaciones recomendadas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Hacen ustedes los proyectos y la legalización ante Industria?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Tenemos un departamento de ingeniería propio que hace planos, esquemas eléctricos, proyectos, boletines y legalizaciones de las instalaciones que realizamos o regularizamos, y que dirige la obra y la corrección de deficiencias."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Trabajan fuera de Bizkaia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Estamos en Ermua, junto a la N-634 y con acceso directo a la autopista, a menos de una hora de Bizkaia, Gipuzkoa y Álava. Damos servicio a nivel local, provincial, autonómico y estatal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Trabajan también con particulares?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Además de industria y edificios, hacemos instalaciones en viviendas (reformas e instalaciones de obra), terrenos particulares e instalaciones rurales."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Electrician",
+      "@id": "https://instalacionesegondo.com/#negocio",
+      "name": "Instalaciones Egondo",
+      "legalName": "Instalaciones y Montajes Eléctricos Egondo, S.A.",
+      "alternateName": "Egondo",
+      "description": "Empresa instaladora eléctrica de Ermua (Bizkaia), fundada en 1967: montaje, mantenimiento y puesta en marcha de instalaciones de alta y baja tensión, centros de transformación, termografías, telecomunicaciones, automatización industrial y eficiencia energética, con ingeniería propia.",
+      "url": "https://instalacionesegondo.com/",
+      "logo": "https://instalacionesegondo.com/logo.svg",
+      "image": [
+        "https://instalacionesegondo.com/og-egondo.jpg",
+        "https://instalacionesegondo.com/img/centro-transformacion.jpg"
+      ],
+      "foundingDate": "1967",
+      "founder": {
+        "@type": "Person",
+        "name": "Javier Garro"
+      },
+      "telephone": "+34943170500",
+      "faxNumber": "+34943172361",
+      "email": "info@instalacionesegondo.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Avda. Vizcaya s/n, Edificio Zeharreko-Buelta P1-L2",
+        "postOfficeBoxNumber": "Apdo. 108",
+        "addressLocality": "Ermua",
+        "postalCode": "48260",
+        "addressRegion": "Bizkaia",
+        "addressCountry": "ES"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.1846,
+        "longitude": -2.5108
+      },
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=Instalaciones%20Egondo%2C%20Avenida%20Vizcaya%2C%2048260%20Ermua",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "08:00",
+          "closes": "13:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "14:00",
+          "closes": "18:00"
+        }
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+34943170500",
+        "email": "info@instalacionesegondo.com",
+        "contactType": "customer service",
+        "areaServed": "ES",
+        "availableLanguage": [
+          "es",
+          "eu"
+        ]
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Bizkaia"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Gipuzkoa"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Álava"
+        },
+        {
+          "@type": "Country",
+          "name": "España"
+        }
+      ],
+      "knowsAbout": [
+        "Alta tensión",
+        "Centros de transformación",
+        "Baja tensión",
+        "Termografía",
+        "Automatización industrial",
+        "Telecomunicaciones",
+        "Eficiencia energética"
+      ],
+      "sameAs": []
+    },
+    {
+      "@type": "ContactPage",
+      "@id": "https://instalacionesegondo.com/contacto/#webpage",
+      "url": "https://instalacionesegondo.com/contacto/",
+      "name": "Contacto · Instalaciones eléctricas en Ermua | Egondo",
+      "inLanguage": "es-ES",
+      "isPartOf": {
+        "@id": "https://instalacionesegondo.com/#web"
+      },
+      "about": {
+        "@id": "https://instalacionesegondo.com/#negocio"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://instalacionesegondo.com/contacto/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://instalacionesegondo.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Contacto",
+          "item": "https://instalacionesegondo.com/contacto/"
+        }
+      ]
+    }
+  ]
+}

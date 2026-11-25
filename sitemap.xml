@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://instalacionesegondo.com/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://instalacionesegondo.com/"/>
+    <xhtml:link rel="alternate" hreflang="eu-ES" href="https://instalacionesegondo.com/eu/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://instalacionesegondo.com/"/>
+  </url>
+  <url>
+    <loc>https://instalacionesegondo.com/eu/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://instalacionesegondo.com/"/>
+    <xhtml:link rel="alternate" hreflang="eu-ES" href="https://instalacionesegondo.com/eu/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://instalacionesegondo.com/"/>
+  </url>
+  <url><loc>https://instalacionesegondo.com/mantenimiento-centros-transformacion/</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://instalacionesegondo.com/contacto/</loc><lastmod>2026-11-25</lastmod></url>
+
+  <!-- ARQUITECTURA PREVISTA: descomentar cada URL cuando su página esté publicada.
+  <url><loc>https://instalacionesegondo.com/alta-tension/</loc></url>
+  <url><loc>https://instalacionesegondo.com/baja-tension/</loc></url>
+  <url><loc>https://instalacionesegondo.com/termografias/</loc></url>
+  <url><loc>https://instalacionesegondo.com/eficiencia-energetica/</loc></url>
+  <url><loc>https://instalacionesegondo.com/automatizacion-industrial/</loc></url>
+  <url><loc>https://instalacionesegondo.com/telecomunicaciones/</loc></url>
+  <url><loc>https://instalacionesegondo.com/instalaciones-electricas-gipuzkoa/</loc></url>
+  <url><loc>https://instalacionesegondo.com/instalaciones-electricas-alava/</loc></url>
+  -->
+</urlset>

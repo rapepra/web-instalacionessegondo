@@ -1,0 +1,229 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Electrician",
+      "@id": "https://instalacionesegondo.com/#negocio",
+      "name": "Instalaciones Egondo",
+      "legalName": "Instalaciones y Montajes Eléctricos Egondo, S.A.",
+      "alternateName": "Egondo",
+      "description": "Empresa instaladora eléctrica de Ermua (Bizkaia), fundada en 1967: montaje, mantenimiento y puesta en marcha de instalaciones de alta y baja tensión, centros de transformación, termografías, telecomunicaciones, automatización industrial y eficiencia energética, con ingeniería propia.",
+      "url": "https://instalacionesegondo.com/",
+      "logo": "https://instalacionesegondo.com/logo.svg",
+      "image": [
+        "https://instalacionesegondo.com/og-egondo.jpg",
+        "https://instalacionesegondo.com/img/centro-transformacion.jpg"
+      ],
+      "foundingDate": "1967",
+      "founder": {
+        "@type": "Person",
+        "name": "Javier Garro"
+      },
+      "telephone": "+34943170500",
+      "faxNumber": "+34943172361",
+      "email": "info@instalacionesegondo.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Avda. Vizcaya s/n, Edificio Zeharreko-Buelta P1-L2",
+        "postOfficeBoxNumber": "Apdo. 108",
+        "addressLocality": "Ermua",
+        "postalCode": "48260",
+        "addressRegion": "Bizkaia",
+        "addressCountry": "ES"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.1846,
+        "longitude": -2.5108
+      },
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=Instalaciones%20Egondo%2C%20Avenida%20Vizcaya%2C%2048260%20Ermua",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "08:00",
+          "closes": "13:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "14:00",
+          "closes": "18:00"
+        }
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+34943170500",
+        "email": "info@instalacionesegondo.com",
+        "contactType": "customer service",
+        "areaServed": "ES",
+        "availableLanguage": [
+          "es",
+          "eu"
+        ]
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Bizkaia"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Gipuzkoa"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Álava"
+        },
+        {
+          "@type": "Country",
+          "name": "España"
+        }
+      ],
+      "knowsAbout": [
+        "Alta tensión",
+        "Centros de transformación",
+        "Baja tensión",
+        "Termografía",
+        "Automatización industrial",
+        "Telecomunicaciones",
+        "Eficiencia energética"
+      ],
+      "sameAs": []
+    },
+    {
+      "@type": "Service",
+      "@id": "https://instalacionesegondo.com/mantenimiento-centros-transformacion/#servicio-ct-mantenimiento",
+      "name": "Mantenimiento de centros de transformación",
+      "serviceType": "Mantenimiento de centros de transformación",
+      "description": "Revisión general anual del centro de transformación, coordinación de la inspección periódica obligatoria por un OCA y corrección de las anomalías detectadas.",
+      "url": "https://instalacionesegondo.com/mantenimiento-centros-transformacion/",
+      "provider": {
+        "@id": "https://instalacionesegondo.com/#negocio"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Bizkaia"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Gipuzkoa"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Álava"
+        },
+        {
+          "@type": "Country",
+          "name": "España"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://instalacionesegondo.com/mantenimiento-centros-transformacion/#webpage",
+      "url": "https://instalacionesegondo.com/mantenimiento-centros-transformacion/",
+      "name": "Mantenimiento de centros de transformación | Egondo",
+      "inLanguage": "es-ES",
+      "isPartOf": {
+        "@id": "https://instalacionesegondo.com/#web"
+      },
+      "about": {
+        "@id": "https://instalacionesegondo.com/mantenimiento-centros-transformacion/#servicio-ct-mantenimiento"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://instalacionesegondo.com/mantenimiento-centros-transformacion/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://instalacionesegondo.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Mantenimiento de centros de transformación",
+          "item": "https://instalacionesegondo.com/mantenimiento-centros-transformacion/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://instalacionesegondo.com/mantenimiento-centros-transformacion/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Es obligatorio el mantenimiento de un centro de transformación?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. El titular de un centro de transformación debe tener contratado su mantenimiento con una empresa instaladora autorizada y pasar una inspección periódica por un Organismo de Control Autorizado (OCA) cada tres años, según el Reglamento de alta tensión (RD 337/2014). El desconocimiento no exime de cumplimiento: no cumplirlo puede acarrear responsabilidades."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué es una inspección OCA y quién la hace?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Es la inspección reglamentaria que realiza un Organismo de Control Autorizado, una entidad externa e independiente. Su informe favorable permite mantener el suministro. En alta tensión es cada tres años y en las instalaciones de baja tensión que lo requieren, cada cinco. Nosotros la coordinamos y corregimos las anomalías que señale el informe."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué incluye el mantenimiento de un centro de transformación?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Una revisión general anual del centro (celdas, transformador, protecciones, señalización y seguridad), la coordinación de la inspección OCA cuando toca y la reparación o sustitución de lo que haga falta: transformadores de tensión e intensidad, fusibles, señalizadores de tensión, etc."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué pasa si se avería el transformador?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Disponemos de transformadores de potencia para nuestros clientes que se pueden instalar rápidamente en caso de avería. Si el servicio no está incluido en el contrato de mantenimiento, también se puede alquilar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Trabajan con cualquier marca de celdas y transformadores?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Trabajamos con celdas, transformadores y equipos de todos los fabricantes del mercado, como Ormazábal, Schneider Electric, Siemens, Inael o Mesa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta el mantenimiento de un centro de transformación?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende del número de transformadores, de su potencia y del estado de la instalación. Lo vemos en una visita y le damos un presupuesto cerrado."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Trabajan fuera de Bizkaia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Estamos en Ermua, junto a la N-634 y con acceso directo a la autopista, a menos de una hora de Bizkaia, Gipuzkoa y Álava. Damos servicio a nivel local, provincial, autonómico y estatal."
+          }
+        }
+      ]
+    }
+  ]
+}
